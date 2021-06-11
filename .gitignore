@@ -1,0 +1,5 @@
+google-cloud-sdk-*
+google-cloud-sdk
+.vscode
+venv
+input/
