@@ -1,0 +1,1 @@
+id:INTEGER,airline_code:STRING,flight_num:INTEGER,source_airport:STRING,destination_airport:STRING,distance:INTEGER,departure_time:INTEGER,arrival_time:INTEGER,departure_delay:INTEGER,arrival_delay:INTEGER,airtime:INTEGER
