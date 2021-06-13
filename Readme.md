@@ -14,11 +14,11 @@ This project is taking **JSON** as the data sources which will be read by Spark 
 Which explained more in [Output & Explanation](#output-and-explanation) section
 
 ## **Setup**
-First of all, you need to have `gcloud` command whether its on Local on you can use Cloud Shell.
+First of all, you need to have `gcloud` command whether its on Local on you can use Cloud Shell instead.
 1. Enable Dataproc API, you may see it how to enable the API on: https://cloud.google.com/dataproc/docs/quickstarts/quickstart-gcloud
 2. If you decide to run whole process on local using `gcloud`. You may refer to https://cloud.google.com/sdk/docs/install for the installation guide.
    
-If you've did two steps above, lets move to next part which is Setup using Non Workflow Template vs Using Workflow Template.
+If you've did two steps above, lets move to next part which is [Setup using Non Workflow Template](#using-non-workflow-template) vs [Using Workflow Template](#using-workflow-template).
 ### Using Non Workflow Template
 Non workflow template means that we have to create the cluster first, then submit jobs to our cluster then delete the cluster by manually (but still can be done using `gcloud` command). The steps are:
 1. Create a Dataproc cluster with:
