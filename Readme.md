@@ -5,7 +5,9 @@ This project is much utilizing Google Cloud Platform specifically:
 3. **Google Cloud Storage** to store the data source, our PySpark code and to store the output besides BigQuery
 
 ## **Data Sources and Output Target**
-This project is taking **JSON** as the data sources which will be read by Spark as Spark DataFrame and write the transformed data into:
+This project is taking **JSON** as the data sources that you may see on `input/` folder. 
+
+Those files will be read by Spark as Spark DataFrame and write the transformed data into:
 1. CSV
 2. Parquet
 3. JSON
