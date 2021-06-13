@@ -4,6 +4,15 @@ This project is much utilizing Google Cloud Platform specifically:
 2. **Google BigQuery** as our Data Warehouse to store final data after transformed by PySpark
 3. **Google Cloud Storage** to store the data source, our PySpark code and to store the output besides BigQuery
 
+## **Data Sources and Output Target**
+This project is taking **JSON** as the data sources which will be read by Spark as Spark DataFrame and write the transformed data into:
+1. CSV
+2. Parquet
+3. JSON
+4. BigQuery Table
+
+Which explained more in [Output & Explanation](#output-and-explanation) section
+
 ## **Setup**
 First of all, you need to have `gcloud` command whether its on Local on you can use Cloud Shell.
 1. Enable Dataproc API, you may see it how to enable the API on: https://cloud.google.com/dataproc/docs/quickstarts/quickstart-gcloud
