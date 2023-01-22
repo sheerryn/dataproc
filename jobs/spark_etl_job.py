@@ -4,9 +4,9 @@ from pyspark.sql.types import LongType, StringType, StructField, StructType, Dat
 import time
 
 DAYS_DIFF = 723
-BUCKET_NAME = 'flight-sparks-w3'
-PROJECT_ID = 'static-gravity-312212'
-DATASET_ID = 'staging'
+BUCKET_NAME = 'elevated-dynamo-bucket'
+PROJECT_ID = 'elevated-dynamo-370709'
+DATASET_ID = 'newdataset'
 
 spark_session = SparkSession.builder \
     .appName("JSONtoBigQuery") \
